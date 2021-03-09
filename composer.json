@@ -4,10 +4,12 @@
     "keywords": ["eloquent", "filter", "url"],
     "type": "library",
     "license": "MIT",
-    "authors": {
-        "name": "Leonardo Yanes Batista",
-        "email": "leo95batista@gmail.com"
-    },
+    "authors": [
+        {
+            "name": "Leonardo Yanes Batista",
+            "email": "leo95batista@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.4",
         "illuminate/database": "^6.0|^7.0|^8.0",
