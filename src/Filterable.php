@@ -1,5 +1,7 @@
 <?php
 
+namespace Kodewbit\Meteor;
+
 use Kodewbit\Meteor\Filter;
 use Illuminate\Database\Eloquent\Builder;
 
