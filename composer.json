@@ -1,0 +1,29 @@
+{
+    "name": "kodewbit/meteor",
+    "description": "A library that allows you to filter Eloquent models through HTTP requests.",
+    "keywords": ["eloquent", "filter", "url"],
+    "type": "library",
+    "license": "MIT",
+    "authors": {
+        "name": "Leonardo Yanes Batista",
+        "email": "leo95batista@gmail.com"
+    },
+    "require": {
+        "php": "^7.4",
+        "illuminate/database": "^6.0|^7.0|^8.0",
+        "illuminate/http": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kodewbit\\Meteor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kodewbit\\Meteor\\MeteorServiceProvider"
+            ]
+        }
+    }
+}
