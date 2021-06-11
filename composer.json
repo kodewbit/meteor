@@ -1,7 +1,11 @@
 {
     "name": "kodewbit/meteor",
     "description": "A library that allows you to filter Eloquent models through HTTP requests.",
-    "keywords": ["eloquent", "filter", "url"],
+    "keywords": [
+        "eloquent",
+        "filter",
+        "url"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
