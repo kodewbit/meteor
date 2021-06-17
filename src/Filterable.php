@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 /**
  * Trait Filterable
  *
- * @method Builder filter($filter)
+ * @method static Builder filter($filter)
  */
 trait Filterable
 {

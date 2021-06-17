@@ -25,7 +25,6 @@ abstract class Filter
      * Initialize a new filter instance.
      *
      * @param Request $request
-     * @return void
      */
     public function __construct(Request $request)
     {
