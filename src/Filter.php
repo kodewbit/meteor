@@ -12,14 +12,14 @@ abstract class Filter
      *
      * @var Request
      */
-    protected $request;
+    protected Request $request;
 
     /**
      * The builder instance.
      *
      * @var Builder
      */
-    protected $builder;
+    protected Builder $builder;
 
     /**
      * Initialize a new filter instance.
@@ -38,7 +38,7 @@ abstract class Filter
      * @param Builder $builder
      * @return Builder
      */
-    public function apply(Builder $builder)
+    public function apply(Builder $builder): Builder
     {
         $this->builder = $builder;
 

@@ -2,7 +2,6 @@
 
 namespace Kodewbit\Meteor;
 
-use Kodewbit\Meteor\Filter;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
@@ -19,7 +18,7 @@ trait Filterable
      * @param Filter $filter
      * @return Builder
      */
-    public function scopeFilter(Builder $builder, Filter $filter)
+    public function scopeFilter(Builder $builder, Filter $filter): Builder
     {
         return $filter->apply($builder);
     }
