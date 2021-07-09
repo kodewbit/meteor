@@ -13,7 +13,7 @@ class MeteorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // TODO
     }
 
     /**
@@ -23,6 +23,6 @@ class MeteorServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // TODO
     }
 }
